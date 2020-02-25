@@ -1,0 +1,75 @@
+
+$primary-1:#03a9f4;
+$primary-2:#f75e2e;
+$primary-3:#ecfa4d;
+$primary-4:#656a70;
+
+
+$base-ligh:white;
+$base-dark:black;
+
+/*-------Світліший колір primary-1---------------------*/
+$l1-1:mix($primary-1,#fff,60%);
+$l1-2:mix($primary-1,#fff,25%);
+$l1-3:mix($primary-1,#fff,10%);
+
+/*--------Темніший колір primary-1 --------------*/
+
+$d1-1:mix($primary-1,black,80%);
+//$d1-1:#0287c3;
+$d1-2:mix($primary-1,black,50%);
+$d1-2:mix($primary-1,black,30%);
+
+
+/*-------Світліший колір primary-2---------------------*/
+$l2-1:mix($primary-2,#fff,60%);
+$l2-2:mix($primary-2,#fff,25%);
+$l2-3:mix($primary-2,#fff,10%);
+
+/*--------Темніший колір primary-2 --------------*/
+
+$d2-1:mix($primary-2,black,80%);
+$d2-2:mix($primary-2,black,50%);
+$d2-2:mix($primary-2,black,30%);
+
+
+/*-------Світліший колір primary-3---------------------*/
+$l3-1:mix($primary-3,#fff,60%);
+$l3-2:mix($primary-3,#fff,25%);
+$l3-3:mix($primary-3,#fff,10%);
+
+/*--------Темніший колір primary-3 --------------*/
+
+$d3-1:mix($primary-3,black,80%);
+$d3-2:mix($primary-3,black,50%);
+$d3-2:mix($primary-3,black,30%);
+
+/*-------Світліший колір primary-4---------------------*/
+$l4-1:mix($primary-4,#fff,60%);
+$l4-2:mix($primary-4,#fff,25%);
+$l4-3:mix($primary-4,#fff,10%);
+
+/*--------Темніший колір primary-4 --------------*/
+
+$d4-1:mix($primary-4,black,80%);
+$d4-2:mix($primary-4,black,50%);
+$d4-3:mix($primary-4,black,30%);
+
+
+/*---------------- Fonts --------------------*/
+
+$font-regular: 'Poppins-Regular';
+$font-thin: 'Poppins-Light';
+$font-medium:'Poppins-Medium';
+$font-bold: 'Poppins-Bold';
+$font-semibold: 'Poppins-Semi-Bold';
+
+
+
+
+
+
+
+
+
+

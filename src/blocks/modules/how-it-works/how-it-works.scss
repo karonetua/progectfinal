@@ -1,0 +1,157 @@
+.how-it-works-1{
+    background-color: $base-ligh;
+    height: 600px;
+    min-width: 540px;
+}
+
+.leters-1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    text-align: center;
+    
+    h6{  
+        @include font($primary-1,$font-regular,15px,100);
+    }
+    
+    h2{
+        margin-top: 30px;
+        @include font($d4-3,$font-medium,33px,100);
+    }
+}
+
+.plates-2{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+    display: flex;
+    align-items: center;
+    
+    .arrow-left{
+        //float:right;
+        margin-left:40px;
+        
+    }
+
+    article{
+        float:left;
+        margin-right: 20px;
+        background-color: white;
+        width: 290px;
+        height: 280px;
+        display: flex;
+        align-items: center;
+    }
+
+    .plates-2-1{
+        text-align: center;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            margin-top:42px;
+        }
+        h4{
+            margin-top: 30px;
+            @include font($base-dark,$font-medium,17px,100);
+        }
+
+        p{
+            margin-top:20px;
+            @include font($primary-4,$font-regular,14px,500);
+        }
+    }
+
+}
+
+@media(max-width:1200px){
+    
+    .how-it-works-1{
+        
+        height: 1000px;
+    }
+
+    .plates-2{
+        margin-top: 20px;
+        margin-left:100px;
+        text-align: center;
+        display: block;
+              
+        article{
+            margin-right: 100px;
+            margin-top:80px;
+            width: 200px;
+            height: 280px;
+            
+        }
+    
+    
+    }
+
+
+
+}
+
+@media(max-width:780px){
+    
+    .how-it-works-1{
+        
+        height: 1000px;
+    }
+
+    .plates-2{
+        margin-top: 10px;
+        margin-left:80px;
+        text-align: center;
+        display: block;
+              
+        article{
+            margin-right: 10px;
+            margin-top:80px;
+            width: 200px;
+            height: 280px;
+            
+        }
+    }
+}
+
+@media(max-width:600px){
+    
+    .how-it-works-1{
+        
+        height: 1000px;
+    }
+
+    .leters-1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 85px;
+        text-align: center;
+        
+        h6{  
+            @include font($primary-1,$font-regular,15px,100);
+        }
+        
+        h2{
+            margin-top: 30px;
+            @include font($d4-3,$font-medium,30px,100);
+        }
+    }
+
+    .plates-2{
+        margin-top: 10px;
+        margin-left:80px;
+        text-align: center;
+        display: block;
+              
+        article{
+            margin-right: 10px;
+            margin-top:80px;
+            width: 200px;
+            height: 280px;
+            
+        }
+    }
+}

@@ -1,0 +1,263 @@
+.what-our-clien-1{
+    height: 750px;
+    min-width: 540px;
+}
+
+.leters-3{
+    @include font($primary-1,$font-regular,15px,100);
+    margin-top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carus{
+    
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1200px;
+
+    article{
+        
+        float:left;
+        height: 400px;
+        width: 1140px;
+        //width: 615px;
+        //text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .slide-sheet-1{
+            
+            width: 615px;
+            text-align: center;
+            .slide-title{
+                @include font($base-dark,$font-medium,33px,100);
+    
+            }
+    
+            .avatar{
+                margin-top:50px;
+            }
+    
+            .decr{
+                @include font($primary-4,$font-thin,14px,100);
+                margin-top:30px;
+                
+            }
+    
+            .sub-title{
+                @include font($primary-1,$font-semibold,17px,100);
+                margin-top:35px;
+            }
+    
+            .date-time{
+                @include font($l4-1,$font-thin,13px,100);
+                margin-top:15px;
+            }
+        }
+        
+
+    }
+}
+
+@media(max-width:1200px){
+
+
+    .carus{
+        margin-top:50px;
+        // margin-left:-65px;
+        height: 400px;
+        width: 800px;
+        
+        h6{margin-left: 50%;
+            }
+    
+        article{
+            
+            float:left;
+            height: 400px;
+            width: 800px;
+            //width: 615px;
+            //text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+    
+    
+            .slide-sheet-1{
+                
+                width: 615px;
+                text-align: center;
+                .slide-title{
+                    @include font($base-dark,$font-medium,33px,100);
+        
+                }
+        
+                .avatar{
+                    margin-top:50px;
+                }
+        
+                .decr{
+                    @include font($primary-4,$font-thin,14px,100);
+                    margin-top:30px;
+                    
+                }
+        
+                .sub-title{
+                    @include font($primary-1,$font-semibold,17px,100);
+                    margin-top:35px;
+                }
+        
+                .date-time{
+                    @include font($l4-1,$font-thin,13px,100);
+                    margin-top:15px;
+                }
+            }
+            
+    
+        }
+    }
+
+
+}
+
+@media(max-width:990px){
+
+    .what-our-clien-1{
+        height: 880px;
+    }
+    
+    .leters-3{
+        @include font($primary-1,$font-regular,15px,100);
+        margin-top: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+
+    .carus{
+        margin-top:30px;
+        // margin-left:-65px;
+        height: 400px;
+        width: 650px;
+    
+        article{
+            
+            float:left;
+            height: 400px;
+            width: 650px;
+            //width: 615px;
+            //text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+    
+    
+            .slide-sheet-1{
+                
+                width: 500px;
+                text-align: center;
+                .slide-title{
+                    @include font($base-dark,$font-medium,33px,100);
+        
+                }
+        
+                .avatar{
+                    margin-top:50px;
+                }
+        
+                .decr{
+                    @include font($primary-4,$font-thin,14px,100);
+                    margin-top:30px;
+                    
+                }
+        
+                .sub-title{
+                    @include font($primary-1,$font-semibold,17px,100);
+                    margin-top:35px;
+                }
+        
+                .date-time{
+                    @include font($l4-1,$font-thin,13px,100);
+                    margin-top:15px;
+                }
+            }
+            
+    
+        }
+    }
+}
+
+@media(max-width:760px){
+
+    .what-our-clien-1{
+        height: 990px;
+    }
+    
+    .leters-3{
+        @include font($primary-1,$font-regular,15px,100);
+        margin-top: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+
+    .carus{
+        margin-top:60px;
+        // margin-left:20px;
+        height: 450px;
+        width: 400px;
+    
+        article{
+            
+            float:left;
+            height: 450px;
+            width: 450px;
+            //width: 615px;
+            //text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+    
+    
+            .slide-sheet-1{
+                
+                width: 300px;
+                text-align: center;
+                .slide-title{
+                    @include font($base-dark,$font-medium,33px,100);
+        
+                }
+        
+                .avatar{
+                    margin-top:50px;
+                }
+        
+                .decr{
+                    @include font($primary-4,$font-thin,14px,100);
+                    margin-top:30px;
+                    
+                }
+        
+                .sub-title{
+                    @include font($primary-1,$font-semibold,17px,100);
+                    margin-top:35px;
+                }
+        
+                .date-time{
+                    @include font($l4-1,$font-thin,13px,100);
+                    margin-top:15px;
+                }
+            }
+            
+    
+        }
+    }
+}
